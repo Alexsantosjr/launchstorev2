@@ -26,6 +26,12 @@ body {
     background-color: #f9f9f9;
 }
 
+.container{
+    width: 90%;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
 header, footer {
     background-color: black;
     color: white;
@@ -81,6 +87,12 @@ nav.primary ul li a {
     align-items: center;
 
     color: white;
+
+    transition: 200ms;
+}
+
+nav.primary ul li a:hover{
+    color: var(--primary-color);
 }
 
 nav.primary ul li a i{

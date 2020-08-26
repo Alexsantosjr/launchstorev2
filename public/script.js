@@ -2,7 +2,7 @@ const Mask = {
     apply(input, func){
         setTimeout(function(){
            input.value =  Mask[func](input.value)
-        }, 1)
+        }, 10)
     },
     formatBRL(value){
         value = value.replace(/\D/g, "")
